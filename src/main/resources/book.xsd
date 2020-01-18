@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="librarymanager.mattmusc.io"
+        xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+        xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+        jxb:version="2.0"
+        jxb:extensionBindingPrefixes="xjc">
+    <complexType name="book">
+        <sequence>
+            <element type="string" name="name"/>
+            <element type="dateTime" name="dt"/>
+        </sequence>
+    </complexType>
+</schema>
