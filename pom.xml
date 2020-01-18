@@ -39,6 +39,7 @@
                     </plugins>
                     <schemaDirectory>${project.basedir}/src/main/resources/</schemaDirectory>
                     <bindingDirectory>${project.basedir}/src/main/resources/</bindingDirectory>
+                    <generateDirectory>${project.basedir}/src/main/java/</generateDirectory>
                 </configuration>
             </plugin>
             <plugin>

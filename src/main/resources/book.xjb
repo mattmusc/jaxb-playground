@@ -7,4 +7,10 @@
                       xmlType="xs:dateTime"
                       adapter="io.mattmusc.librarymanager.domain.adapters.LocalDateTimeXmlAdapter"/>
     </globalBindings>
+
+    <bindings schemaLocation="book.xsd">
+        <schemaBindings>
+            <package name="io.mattmusc.librarymanager.domain.jaxb"/>
+        </schemaBindings>
+    </bindings>
 </bindings>
